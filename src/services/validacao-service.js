@@ -6,15 +6,13 @@ class ValidacaoService {
             return false
         }
     }
-}
-
-class ValidacaoService {
-    validaAutor(dica) {
-        if (autor !== "") {
+    validaDica(dica) {
+        if (dica !== "") {
             return true
         } else {
             return false
         }
     }
 }
+
 export default new ValidacaoService;
